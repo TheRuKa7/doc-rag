@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "doc-rag",
+    "slug": "doc-rag",
+    "scheme": "docrag",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.theruka.docrag" },
+    "android": { "package": "com.theruka.docrag" },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
