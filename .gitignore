@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+htmlcov/
+.coverage
+
+.env
+.env.local
+*.key
+*.pem
+
+.vscode/
+.idea/
+.DS_Store
+
+# Data / corpora
+corpus/
+data/
+weights/
+evals/private/
+runs/
+outputs/
+.streamlit/secrets.toml
+
+# pg data
+pg-data/
